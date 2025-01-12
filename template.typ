@@ -141,7 +141,7 @@
   pagebreak()
   
   show figure: i-figured.show-figure
-  show math.equation: i-figured.show-equation.with(level:3, zero-fill: false)
+  show math.equation: i-figured.show-equation.with(zero-fill: false)
 
   body
 }

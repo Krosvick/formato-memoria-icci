@@ -25,10 +25,24 @@
   caption: "Características principales del proyecto",
 ) <tabla-caracteristicas>
 
-\
+Ejemplo para citar tabla: @tbl:tabla-caracteristicas
+
+Ejemplo para citar referencia: @vaswani2023attentionneed
+
+#figure(image("../assets/imagenes/transformer.png", width: 60%), caption: "Transformer") <fig:Transformer>
+
+Ejemplo para citar figura: @fig:Transformer
+
+#pagebreak()
 == Objetivo General
 \
 [Definir el objetivo principal del trabajo...]
+Ejemplo de Ecuacion:
+
+$ U(pi_M (q;D))= integral_(R_q)S i m(pi_M (R_q ;D))p(R_q | I_q)d R_q $ <ecuacion_uef>
+
+Ejemplo para citar ecuación: @eqt:ecuacion_uef
+
 
 \
 == Objetivos Específicos

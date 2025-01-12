@@ -37,7 +37,7 @@
   level: 1
 ): it => {
   v(12pt, weak: true)
-  strong(it)
+  it
 }
 #par(leading:1em)[
 #outline(
