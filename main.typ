@@ -1,7 +1,11 @@
-#import "@preview/anti-matter:0.1.1": anti-matter, fence, set-numbering, step
+#import "custom_anti_matter/lib.typ": anti-matter
 #import "template.typ": *
 
-#show: anti-matter
+#show: anti-matter.with(
+  alignments: (center, right, center),
+  header: none,
+  numbering: ("i", "1", "i")
+)
 // Empezamos sin numeración para la portada
 
 #show: proyecto.with(
