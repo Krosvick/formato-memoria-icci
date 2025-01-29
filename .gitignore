@@ -1,5 +1,4 @@
 # Typst output
-*.pdf
 
 # OS generated files
 .DS_Store
